@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/menu_item1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="@dimen/content_text_16sp"
+        android:text="标为未读" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffe5e5e5"/>
+
+    <TextView
+        android:id="@+id/menu_item2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="@dimen/content_text_16sp"
+        android:text="置顶聊天" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffe5e5e5"/>
+
+    <TextView
+        android:id="@+id/menu_item3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="@dimen/content_text_16sp"
+        android:text="删除该聊天" />
+
+
+</LinearLayout>

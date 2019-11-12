@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_message"
+        android:orderInCategory="0"
+        android:icon="@mipmap/ic_navigation_message"
+        android:title="@string/title_message"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:orderInCategory="1"
+        android:icon="@mipmap/ic_navigation_relative"
+        android:title="@string/title_relative"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:orderInCategory="2"
+        android:icon="@mipmap/ic_navigation_mine"
+        android:title="@string/title_mine"/>
+</menu>
